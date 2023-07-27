@@ -1,0 +1,37 @@
+nav {
+    width: 75%;
+    height: clamp(50px, 15vh, 140px);
+    background: linear-gradient(0.25turn, rgb(var(--secondary)), rgb(var(--primary)));
+
+    margin: 15px auto;
+
+    border-radius: 15px;
+}
+
+.nav-items {
+    height: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav-logo {
+    height: 100%;
+    margin-right: auto;
+}
+
+.nav-links {
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
